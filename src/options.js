@@ -3,7 +3,6 @@ const options = {
     enable: true,
     zIndex: -1
   },
-  color: '#121212',
   fpsLimit: 300,
   particles: {
       number: {

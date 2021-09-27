@@ -8,6 +8,11 @@ const routes = [
         name: 'Home',
         component: () => import("../components/HelloWorld.vue"),
     },
+    {
+        path: '/about',
+        name: 'About',
+        component: () => import("../components/HelloWorld.vue"),
+    },
 ]
 const router = createRouter({
     history: createWebHistory(),
