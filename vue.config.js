@@ -5,8 +5,7 @@ const locals = { name: "pug" }
 
 module.exports = {
   transpileDependencies: [
-    'vuetify',
+    "vuetify",
     pugPlugin(options, locals),
-  ],
-  assetsDir: "./src/assets"
+  ]
 }

@@ -1,10 +1,11 @@
 <template lang="pug">
-NavBar
-HelloWorld(msg="Hello Vue 3 in CodeSandbox!")
-Particles#tsparticles(
-    :options="options"
-    :particlesLoaded="particlesLoaded"
-  )
+v-app
+  NavBar
+  HelloWorld(msg="Hello Vue 3 in CodeSandbox!")
+  Particles#tsparticles(
+      :options="options"
+      :particlesLoaded="particlesLoaded"
+    )
 </template>
 
 <script>
@@ -47,33 +48,33 @@ export default {
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #c5c5c5;
-  margin-top: 60px;
+<style lang="sass">
+#app 
+  font-family: Avenir, Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
+  color: #c5c5c5
+  margin-top: 60px
 
-}
-#app a {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #c5c5c5;
-  margin-top: 60px;
-  text-decoration: none;
+
+#app a 
+  font-family: Avenir, Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
+  color: #c5c5c5
+  margin-top: 60px
+  text-decoration: none
   
 
-}
 
-#app a :hover {
-  color: #8e60c2;
-}
 
-canvas {
-  background: #121212;
-}
+#app a :hover 
+  color: #8e60c2
+
+
+canvas 
+  background: #121212
+
 </style>
