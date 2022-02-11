@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Service-Worker-Allowed
