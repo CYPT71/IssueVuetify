@@ -1,3 +1,11 @@
+##  version
+
+@vue/cli 4.5.15
+
+npm 8.5.0
+
+node v17.3.0
+
 # demo
 
 ## Project setup
