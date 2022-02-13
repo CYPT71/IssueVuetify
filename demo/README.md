@@ -1,4 +1,4 @@
-# monopoly
+# demo
 
 ## Project setup
 ```
