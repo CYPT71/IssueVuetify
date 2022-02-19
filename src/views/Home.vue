@@ -1,5 +1,5 @@
 <template lang="pug">
-//- v-alert
+v-alert
 </template>
 
 <script>
